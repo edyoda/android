@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.classes.android.view_tutorial.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.classes.android.view_tutorial.RoundButton
+        android:id="@+id/roundbutton"
+        android:layout_width="197dp"
+        android:layout_height="229dp"
+        android:layout_gravity="center" />
+</FrameLayout>
