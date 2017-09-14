@@ -17,9 +17,9 @@
         android:layout_height="wrap_content"
         android:text="New Button"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="109dp" />
+        android:layout_marginTop="48dp"
+        android:layout_centerVertical="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -27,4 +27,5 @@
         android:layout_marginLeft="40dp"
         android:layout_above="@+id/button"
         android:id="@+id/imageView" />
+
 </RelativeLayout>

@@ -55,12 +55,13 @@ public class MainActivity extends ActionBarActivity {
                 builder.setContentTitle("WhatsApp Notification");
                 builder.setContentText("You have a new message");
                 builder.setSmallIcon(R.drawable.abc);
+                builder.setSubText("This is subtext...");   //API level 16
+                builder.setNumber(100);
                 builder.setContentIntent(pendingIntent);
 
                 //Set whether this is an ongoing notification.
                 builder.setOngoing(true);
-                builder.setSubText("This is subtext...");   //API level 16
-                builder.setNumber(100);
+
 
                 //Combine all of the options that have been set and return a new Notification object.
                 //builder.build();

@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 InputStream in = null;// initialize it with image url
                 Message msg = Message.obtain();
-                msg.what = 1;
+                msg.what = 1; // code
 
                 try
 
